@@ -19,7 +19,7 @@ users = [
 
 @app.route("/")
 def home():
-    return render_template('Homepage.html',users=users)
+    return render_template('homepage.html',users=users)
 
 @app.route("/api/jobs")
 def Jobs():
